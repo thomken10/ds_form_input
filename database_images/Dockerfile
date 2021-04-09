@@ -1,3 +1,3 @@
 FROM thomken21/mysql:2.0
-ENV MYSQL_DATABASE distributed_systems
-COPY ./distributed_systems.sql /docker-entrypoint-initdb.d/
+ENV MYSQL_DATABASE distributed_system
+COPY ./distributed_system.sql /docker-entrypoint-initdb.d/
